@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Szerkessze a szöveget a túra nevének megadásához-->
+    <EditText
+        android:id="@+id/idEdtTourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Írd be a túra nevét" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/idEdtTourLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Írd be a túra hosszát" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/idEdtTourTracks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Írd be a túra irányát" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtTourDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Írd be a túra leírását" />
+
+    <!--button for adding new course-->
+    <Button
+        android:id="@+id/idBtnAddTour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Túra hozzáadása"
+        android:textAllCaps="false" />
+
+    <!--new button for opening our course list activity-->
+    <!--Button
+        android:id="@+id/idBtnReadTour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Nézd meg az összes túrát"
+        android:textAllCaps="false" /-->
+
+</LinearLayout>
